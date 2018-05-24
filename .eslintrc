@@ -11,6 +11,6 @@
     "no-console":"off",
     "no-alert":"off",
     "arrow-parens":"off",
-    "no-class-assign": "off"
+    "no-class-assign": "off",
   }
 }

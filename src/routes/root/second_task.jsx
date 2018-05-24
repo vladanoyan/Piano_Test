@@ -1,37 +1,12 @@
 import React from 'react';
-import { Container, Col, Row } from 'reactstrap';
-import { connect } from 'react-redux';
+import Wheather from './Wheather';
 
-class Piano extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
+class SecondTask extends React.Component {
   render() {
     return (
-      <div>
-        <Container>
-          <Row>
-            <Col>
-              <ul>
-                <li>jh</li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <Wheather city="Yerevan" type="celsius" />
     );
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    piano: state.piano,
-  };
-};
-
-export default connect(
-  mapStateToProps,
-)(Piano);
+export default SecondTask;

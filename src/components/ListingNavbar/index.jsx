@@ -35,7 +35,7 @@ class NavbarMenu extends React.Component {
           <Collapse className={cs.collapse} isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink activeClassName={`${cs.active1}`} to="/second_task" className={cs.link}>Second_Task</NavLink>
+                <NavLink activeClassName={`${cs.active1}`} to="/second_task" className={cs.link}>Weather Now</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
